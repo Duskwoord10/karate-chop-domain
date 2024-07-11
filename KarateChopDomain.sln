@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarateChopDomain", "..\..\..\Downloads\karate-chop-master\karate-chop-master\KarateChopDomain\KarateChopDomain.csproj", "{8C108D45-6A89-4AD4-998E-F6D78B2A88B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KarateChopDomain.Tests", "..\..\..\Downloads\karate-chop-master\karate-chop-master\KarateChopDomain.Test\KarateChopDomain.Tests.csproj", "{044952C0-1FF2-4FAA-9BDE-3474DE5C92D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C108D45-6A89-4AD4-998E-F6D78B2A88B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C108D45-6A89-4AD4-998E-F6D78B2A88B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C108D45-6A89-4AD4-998E-F6D78B2A88B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C108D45-6A89-4AD4-998E-F6D78B2A88B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044952C0-1FF2-4FAA-9BDE-3474DE5C92D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044952C0-1FF2-4FAA-9BDE-3474DE5C92D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044952C0-1FF2-4FAA-9BDE-3474DE5C92D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044952C0-1FF2-4FAA-9BDE-3474DE5C92D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {191A8558-58D1-4E04-BDFB-784982146494}
+	EndGlobalSection
+EndGlobal
