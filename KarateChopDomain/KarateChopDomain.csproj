@@ -4,6 +4,28 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Karate Chop</Title>
+    <Authors>AlbertSanfle</Authors>
+    <Description>The KarateChop class provides a method for performing a binary search on a sorted array of integers. The main method, Chop, takes an integer target and an array of integers as parameters. It searches for the target within the array using a binary search algorithm. If the target is found, the method returns the index of the target in the array. If the target is not found, the method returns -1. This efficient search method has a logarithmic time complexity, making it suitable for large datasets.</Description>
+    <PackageIcon>karate_icon.png</PackageIcon>
+    <PackageTags>karate,c#,binary-search</PackageTags>
+    <PackageId>$(AssemblyName)</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\karate_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
